@@ -47,12 +47,13 @@ Password: tryhackme
 ```
 
 This gives us the following command:
-```ssh -p 2222 tryhackme@$IP```
+```
+ssh -p 2222 tryhackme@$IP
+```
 
 Once we are in, we can run sudo -l to see what we can execute as sudo.
-```sudo -l```
-
 ```
+$ sudo -l
 User tryhackme may run the following commands on sudo-privesc:
     (ALL, !root) NOPASSWD: /xxx/xxxx
 ```    
