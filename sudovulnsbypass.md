@@ -88,6 +88,8 @@ tryhackme@sudo-privesc:/$ sudo -u#-1 xxxx
 root@sudo-privesc:/# 
 ```
 
+### #2 - What's the flag in /root/root.txt?
+
 And now, for the easy part, get the root.txt file in the root folder:
 
 ```
