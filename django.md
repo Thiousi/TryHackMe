@@ -40,8 +40,10 @@ It might take around ~3 minutes for the machine to boot properly.
 
 Fix the error and retrieve all the flags! (Use knowledge from previous units)
 
+```
 Username: django-admin
 Password: roottoor1212
+```
 
 ---
 
@@ -71,7 +73,7 @@ And by the way, don't waste any time trying to look for Trinity, she's lost in t
 |     /nice ports,/Trinity.txt.bak</title>
 ```
 
-If we go to http://<Machine IP>:8000 we see a Django page with lots of messages about DISALLOWED HOSTS. Rings a bell from the tasks above? We should add the machine IP to the hosts before we can access the app. Let's do that.
+If we go to `http://<Machine IP>:8000` we see a Django page with lots of messages about DISALLOWED HOSTS. Rings a bell from the tasks above? We should add the machine IP to the hosts before we can access the app. Let's do that.
 
 ### #1  Admin panel flag?
 
